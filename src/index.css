@@ -163,8 +163,36 @@ select {
   border-color: rgba(246, 199, 107, 0.28);
 }
 
+.support-card {
+  grid-column: 1 / -1;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 1.75rem;
+  padding: 1.5rem;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.045) 0%,
+    rgba(255, 255, 255, 0.025) 100%
+  );
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.16);
+}
+
+.support-widget {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.support-widget iframe {
+  max-width: 100%;
+  border: 0;
+}
+
 @media (max-width: 768px) {
   .section-title {
     line-height: 1.04;
+  }
+
+  .support-card {
+    padding: 1.25rem;
   }
 }
