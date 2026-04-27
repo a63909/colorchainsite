@@ -140,6 +140,26 @@ export default function App() {
               <StatCard value="Mobile" label="формат участия" />
               <StatCard value="LBU₽" label="нативная криптовалюта" />
             </div>
+
+            <div className="support-card hero-support-card">
+              <div className="eyebrow-gold">Support</div>
+              <h3 className="mt-4 text-2xl font-bold text-white">Поддержать ColorChain</h3>
+              <p className="mt-4 max-w-xl leading-8 text-[var(--soft)]">
+                Если хотите помочь развитию проекта уже сейчас, можно поддержать его через
+                виджет Planeta.ru.
+              </p>
+
+              <div className="support-widget">
+                <iframe
+                  title="Виджет поддержки ColorChain на Planeta.ru"
+                  frameBorder="0"
+                  width="300"
+                  height="250"
+                  loading="lazy"
+                  src="https://widgets.planeta.ru/widgets/affiliate-campaign-widget.html?name=CAMPAIGN_300X250&campaign-id=244102&image-type=CAMPAIGN&affiliate-id=0&background=BLACK&font-color=WHITE&share-id=736728"
+                />
+              </div>
+            </div>
           </div>
 
           <div className="xl:pl-8">
@@ -430,26 +450,6 @@ export default function App() {
             </div>
 
             <div className="grid gap-4 md:grid-cols-2">
-              <div className="support-card">
-                <div className="eyebrow-gold">Support</div>
-                <h3 className="mt-4 text-2xl font-bold text-white">Поддержать ColorChain</h3>
-                <p className="mt-4 max-w-xl leading-8 text-[var(--soft)]">
-                  Если хотите помочь развитию проекта уже сейчас, можно поддержать его через
-                  виджет Planeta.ru.
-                </p>
-
-                <div className="support-widget">
-                  <iframe
-                    title="Виджет поддержки ColorChain на Planeta.ru"
-                    frameBorder="0"
-                    width="300"
-                    height="250"
-                    loading="lazy"
-                    src="https://widgets.planeta.ru/widgets/affiliate-campaign-widget.html?name=CAMPAIGN_300X250&campaign-id=244102&image-type=CAMPAIGN&affiliate-id=0&background=BLACK&font-color=WHITE&share-id=736728"
-                  />
-                </div>
-              </div>
-
               <ContactCard
                 title="Project page"
                 value="Сайт ColorChain"

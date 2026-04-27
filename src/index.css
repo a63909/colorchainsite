@@ -164,7 +164,6 @@ select {
 }
 
 .support-card {
-  grid-column: 1 / -1;
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 1.75rem;
   padding: 1.5rem;
@@ -174,6 +173,11 @@ select {
     rgba(255, 255, 255, 0.025) 100%
   );
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.16);
+}
+
+.hero-support-card {
+  width: min(100%, 22rem);
+  margin-top: 1.75rem;
 }
 
 .support-widget {
@@ -194,5 +198,10 @@ select {
 
   .support-card {
     padding: 1.25rem;
+  }
+
+  .hero-support-card {
+    width: 100%;
+    margin-top: 1.5rem;
   }
 }
